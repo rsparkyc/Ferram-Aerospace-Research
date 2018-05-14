@@ -157,9 +157,11 @@ namespace FerramAerospaceResearch.FARGUI.FAREditorGUI
 
             renderer.useWorldSpace = false;
             renderer.material = material;
-            renderer.SetColors(color, color);
+			renderer.startColor = color;
+			renderer.endColor = color;
             renderer.enabled = false;
-            renderer.SetWidth(width, width);
+			renderer.startWidth = width;
+			renderer.endWidth = width;
             renderer.sortingOrder = 1;
 
             return renderer;
@@ -331,7 +333,7 @@ namespace FerramAerospaceResearch.FARGUI.FAREditorGUI
             renderer.transform.localRotation = Quaternion.identity;
             renderer.transform.SetAsFirstSibling();
 
-            renderer.SetVertexCount(xCoords.Length);
+			renderer.positionCount = xCoords.Length;
 
             for (int i = 0; i < xCoords.Length; i++)
             {

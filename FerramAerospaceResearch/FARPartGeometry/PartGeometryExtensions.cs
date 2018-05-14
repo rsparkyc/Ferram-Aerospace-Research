@@ -256,7 +256,7 @@ namespace FerramAerospaceResearch.FARPartGeometry
             }*/
             procAsteroid = (PAsteroid)fields[2].GetValue(asteroid);
             int count = transformList.Count;
-            GetChildTransforms(transformList, procAsteroid.gameObject.transform.FindChild(""));
+            GetChildTransforms(transformList, procAsteroid.gameObject.transform.Find(""));
             count = transformList.Count - count;
 
             //Debug.Log("New transforms: " + count);

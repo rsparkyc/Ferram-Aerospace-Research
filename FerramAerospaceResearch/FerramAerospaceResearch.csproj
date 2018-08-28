@@ -37,16 +37,20 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Assembly-CSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Dependencies\1.4.3\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\Dependencies\1.4.5\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="KSPAssets">
-      <HintPath>..\..\Dependencies\1.4.3\KSPAssets.dll</HintPath>
+    <Reference Include="KSPAssets, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\1.4.5\KSPAssets.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="ModularFlightIntegrator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Dependencies\1.4.3\ModularFlightIntegrator.dll</HintPath>
+      <HintPath>..\..\Dependencies\1.4.5\ModularFlightIntegrator.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Scale_Redist, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -55,11 +59,13 @@
     <Reference Include="System" />
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Dependencies\1.4.3\UnityEngine.dll</HintPath>
+      <HintPath>..\..\Dependencies\1.4.5\UnityEngine.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Dependencies\1.4.3\UnityEngine.UI.dll</HintPath>
+      <HintPath>..\..\Dependencies\1.4.5\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
